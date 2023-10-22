@@ -9,7 +9,7 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    overflow-x: hidden !important;
+    /* overflow-x: hidden !important; */
 }
 .lightText{
     color: black;
@@ -274,7 +274,7 @@ footer{
     justify-content: center;
     align-items: center;
     margin-top: 50px;
-    
+    margin-bottom: 20px;
 }
 footer span{
     color: white;
@@ -283,7 +283,7 @@ footer span{
 
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1024px) {
     .section1>div {
         font-size: 3rem;
     }
@@ -297,17 +297,19 @@ footer span{
     .progressDiv {
         margin-top: 2em;
     }
-    
+/*     
     .navbar-nav {
         margin-top: 2em;
-        /* position: absolute; */
+        position: absolute;
    background-color: #212529;
    right: 0;
    padding: 10px 20px;
    margin-top: 0;
    z-index: 999;
-    }
-   
+    } */
+   /* .navbar-toggler{
+    right: 0;
+   } */
     .navbar-toggler i{
         color: white !important;
     }
@@ -320,10 +322,10 @@ footer span{
     .frontEnd {
         letter-spacing: 0.3rem;
     }
-    .twoInp {
+    /* .twoInp {
         display: block;
        
-    }
+    } */
     /* .twoInp>input {
         width: 100%;
     } */
