@@ -21,7 +21,7 @@ a {
 
 #top{
     position: fixed;
-    width: 80%;
+    width: 100%;
     top: 0;
     left: 0;
    
@@ -337,5 +337,6 @@ footer span{
     .section1>div {
         line-height: 5rem;
     }
+  
     
 }
