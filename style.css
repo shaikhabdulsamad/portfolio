@@ -6,7 +6,10 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: rgba(0, 0, 0, 0.876);
     margin-bottom: 2em;
-    overflow-x: hidden;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
 }
 .lightText{
     color: black;
@@ -18,9 +21,10 @@ a {
 
 #top{
     position: fixed;
-    width: 100%;
+    width: 80%;
     top: 0;
     left: 0;
+   
     z-index: 999;
 }
 
@@ -296,7 +300,7 @@ footer span{
     
     .navbar-nav {
         margin-top: 2em;
-        position: absolute;
+        /* position: absolute; */
    background-color: #212529;
    right: 0;
    padding: 10px 20px;
@@ -320,13 +324,18 @@ footer span{
         display: block;
        
     }
-    .twoInp>input {
+    /* .twoInp>input {
         width: 100%;
-    }
+    } */
 
     .devImg img{
-        border-radius: 100%;
+        /* border-radius: 100%; */
+        margin-top: 30px;
         width: 80%;
+    }
+
+    .section1>div {
+        line-height: 5rem;
     }
     
 }
