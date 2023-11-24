@@ -111,7 +111,7 @@ input:checked + .slider {
 background-color: #ccc;
 }
 input:checked .body {
-background-color: white;
+background-color: rgb(255, 255, 240);
 }
 
 input:focus + .slider {

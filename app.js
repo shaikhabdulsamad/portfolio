@@ -1,5 +1,5 @@
 
-AOS.init();
+// AOS.init();
 
 
 var toggleBtn = document.getElementById('toggleBtn');
@@ -18,7 +18,7 @@ var barText4 = document.getElementById('barText4');
 toggleBtn.addEventListener('change', function () {
     if (this.checked) {
 
-        body.style.backgroundColor = "#FCFFE7";
+        body.style.backgroundColor = "rgb(250, 249, 246)";
         mainContent.style.color = 'black';
         portfolio.style.color = 'black';
         work.style.color = 'black';
